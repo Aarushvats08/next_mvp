@@ -1,0 +1,15 @@
+.sass-post{
+  width:300px;
+  aspect-ratio: 4/3;
+  grid-row:1;
+}
+.sass-post img{
+  width:300px;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+.scroll-base{
+  display: grid;
+  gap: 20px;
+  overflow:auto;
+}
